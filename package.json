@@ -1,0 +1,23 @@
+{
+  "name": "cy-gmail",
+  "version": "1.0.0",
+  "description": "An example of Cypress end-to-end test with email confirmation",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:ci": "cypress run --record",
+    "format": "prettier . --write --list-different",
+    "lint": "prettier . --check"
+  },
+  "keywords": [],
+  "author": "Dmitrii Bormotov",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.5.1",
+    "gmail-getter": "^1.0.1",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
+}
